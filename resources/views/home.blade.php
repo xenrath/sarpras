@@ -56,6 +56,10 @@
                     <a href="https://www.instagram.com/universitasbhamadaslawi/" class="instagram">
                         <i class="bx bxl-instagram"></i>
                     </a>
+                    <span class="text-white">|</span>
+                    <a href="{{ url('login') }}" class="login">
+                        <i class="bx bx-log-in-circle"></i>
+                    </a>
                 </div>
             </div>
 
@@ -92,10 +96,8 @@
                         </a>
                     </li>
                     <li style="padding: 16px; width: 100%">
-                        <a href="{{ url('login') }}" class="btn-peminjaman">
-                            <span style="color: #ffffff; width: 100%;">
-                                Login
-                            </span>
+                        <a href="{{ url('peminjaman') }}" class="btn-peminjaman">
+                            <span style="color: #ffffff; width: 100%;">Peminjaman</span>
                         </a>
                     </li>
                 </ul>
@@ -204,7 +206,7 @@
                             <span data-purecounter-start="0" data-purecounter-end="1453"
                                 data-purecounter-duration="1" class="purecounter"></span>
                             <p>
-                                Realisasi
+                                <strong>Realisasi</strong>
                                 <a href="">Lihat</a>
                             </p>
                         </div>
@@ -216,7 +218,7 @@
                             <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
                                 class="purecounter"></span>
                             <p>
-                                On Progress
+                                <strong>On Progress</strong>
                                 <a href="">Lihat</a>
                             </p>
                         </div>
@@ -529,7 +531,7 @@
                                     <div class="email">
                                         <i class="bi bi-envelope"></i>
                                         <h4>Email:</h4>
-                                        <p>saranaprasaranabhamada@gmail.com</p>
+                                        <p>sarprasbhamada@gmail.com</p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
